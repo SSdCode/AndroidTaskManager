@@ -1,0 +1,44 @@
+diff --git a/res/values/strings.xml b/res/values/strings.xml
+index 044d70e429..dbc6d39109 100644
+--- a/res/values/strings.xml
++++ b/res/values/strings.xml
+@@ -14545,4 +14545,39 @@
+     <!-- [CHAR LIMIT=NONE] Hint for QR code process failure -->
+     <string name="bt_le_audio_qr_code_is_not_valid_format">QR code isn\u0027t a valid format</string>
+ 
++    <!-- System Monitor -->
++    <string name="system_monitor_title">System Monitor</string>
++    <string name="system_monitor_summary">Monitor system resources, processes and file system</string>
++
++    <!-- File System Tab -->
++    <string name="tab_file_system">File System</string>
++    <string name="storage_internal">Internal Storage</string>
++    <string name="storage_external">External Storage</string>
++    <string name="file_storage_used">Used</string>
++    <string name="storage_free">Free</string>
++    <string name="storage_total">Total</string>
++
++    <!-- Processes Tab -->
++    <string name="tab_processes">Processes</string>
++    <string name="process_name">Process Name</string>
++    <string name="process_pid">PID</string>
++    <string name="process_memory">Memory</string>
++    <string name="process_cpu">CPU</string>
++
++    <!-- Resources Tab -->
++    <string name="tab_resources">Resources</string>
++    <string name="cpu_usage">CPU Usage</string>
++    <string name="phone_memory_usage">Memory Usage</string>
++    <string name="network_usage">Network Usage</string>
++    <string name="battery_level">Battery Level</string>
++    <string name="temperature">Temperature</string>
++
++    <!-- Common -->
++    <string name="refresh">Refresh</string>
++    <string name="auto_refresh">Auto Refresh</string>
++    <string name="mb_unit">MB</string>
++    <string name="gb_unit">GB</string>
++    <string name="percent_unit">%</string>
++    <string name="menu_key_system_monitor">system_monitor</string>
++
+ </resources>

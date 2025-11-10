@@ -1,0 +1,27 @@
+diff --git a/AndroidManifest.xml b/AndroidManifest.xml
+index 86e73085a0..baddd59f74 100644
+--- a/AndroidManifest.xml
++++ b/AndroidManifest.xml
+@@ -120,6 +120,9 @@
+     <uses-permission android:name="android.permission.START_VIEW_APP_FEATURES" />
+     <uses-permission android:name="android.permission.CUSTOMIZE_SYSTEM_UI" />
+ 
++    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
++    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
++
+     <application
+             android:name=".SettingsApplication"
+             android:label="@string/settings_label"
+@@ -158,6 +161,12 @@
+                        android:value="true" />
+         </activity>
+ 
++        <activity
++            android:name=".systemmonitor.SystemMonitorActivity"
++            android:label="@string/system_monitor_title"
++            android:theme="@android:style/Theme.DeviceDefault.Settings"
++            android:exported="true" />
++
+         <!-- Activity for launching deep link page in 2-pane. -->
+         <activity android:name=".homepage.DeepLinkHomepageActivity"
+                   android:label="@string/settings_label_launcher"

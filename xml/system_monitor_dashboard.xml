@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/system_monitor_title">
+
+    <Preference
+        android:key="launch_system_monitor"
+        android:title="@string/system_monitor_title"
+        android:summary="@string/system_monitor_summary"
+        android:icon="@drawable/ic_settings_system_dashboard_white" />
+
+</PreferenceScreen>

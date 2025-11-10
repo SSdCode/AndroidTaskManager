@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportHeight="24"
+    android:viewportWidth="24">
+
+    <!-- monitor bezel -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M3,4h14a1,1 0 0 1 1,1v9a1,1 0 0 1 -1,1H3a1,1 0 0 1 -1,-1V5a1,1 0 0 1 1,-1zM21,18v1a1,1 0 0 1 -1,1H9v1h9a1,1 0 0 1 1,1v0a1,1 0 0 1 -1,1H6a1,1 0 0 1 -1,-1v0a1,1 0 0 1 1,-1h9v-1H4a1,1 0 0 1 -1,-1v-1h18z" />
+
+    <!-- three bars (resource/process graph) -->
+    <path
+        android:fillColor="#0A2340"
+        android:pathData="M6,16h1.8v-5H6z" />
+    <path
+        android:fillColor="#0A2340"
+        android:pathData="M9.6,16h1.8v-8H9.6z" />
+    <path
+        android:fillColor="#0A2340"
+        android:pathData="M13.2,16h1.8v-3h-1.8z" />
+
+    <!-- status dot (drawn as a circle path instead of <circle>) -->
+    <path
+        android:fillColor="#FFD64D"
+        android:pathData="M18.5,6.5
+                          m-1.2,0
+                          a1.2,1.2 0 1,0 2.4,0
+                          a1.2,1.2 0 1,0 -2.4,0" />
+</vector>

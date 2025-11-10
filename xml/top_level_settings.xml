@@ -1,0 +1,21 @@
+diff --git a/res/xml/top_level_settings.xml b/res/xml/top_level_settings.xml
+index d050a1f274..dd1c66f5a0 100644
+--- a/res/xml/top_level_settings.xml
++++ b/res/xml/top_level_settings.xml
+@@ -185,6 +185,16 @@
+         settings:highlightableMenuKey="@string/menu_key_accounts"
+         settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController"/>
+ 
++    <com.android.settings.widget.HomepagePreference
++        android:fragment="com.android.settings.systemmonitor.SystemMonitorDashboardFragment"
++        android:icon="@drawable/ic_system_monitor"
++        android:key="top_level_system_monitor"
++        android:order="15"
++        android:title="@string/system_monitor_title"
++        android:summary="@string/summary_placeholder"
++        settings:highlightableMenuKey="@string/menu_key_system_monitor"
++        settings:controller="com.android.settings.systemmonitor.TopLevelSystemMonitorPreferenceController"/>
++
+     <com.android.settings.widget.HomepagePreference
+         android:fragment="com.android.settings.system.SystemDashboardFragment"
+         android:icon="@drawable/ic_settings_system_dashboard_white"

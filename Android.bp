@@ -1,0 +1,12 @@
+diff --git a/Android.bp b/Android.bp
+index 0307ccbf82..9c2360b578 100644
+--- a/Android.bp
++++ b/Android.bp
+@@ -93,6 +93,7 @@ android_library {
+         "LineagePreferenceLib",
+         "vendor.lineage.fastcharge-V1.0-java",
+         "SystemUISharedLib",
++        "androidx.viewpager2_viewpager2",
+     ],
+ 
+     libs: [
