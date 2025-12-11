@@ -1,5 +1,7 @@
 # Android System Monitor for AOSP Settings
 
+📺 YouTube Tutorial: https://www.youtube.com/watch?v=mfh-0zNN6JM
+
 A system monitoring tool integrated into Android Settings app for LineageOS/AOSP ROMs.
 
 ## Features
